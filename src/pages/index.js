@@ -17,7 +17,7 @@ const HomePage = () => {
     return (
         <React.Fragment>
             <Layout>
-                <SEO title="Hope – Health &amp; Medical React JS Template" />
+                <SEO title="BRIGHT WHITE DENTAL CENTRE" />
                 <div className="wrapper home-default-wrapper">
                     <Header />
                     <div className="main-content site-wrapper-reveal">
