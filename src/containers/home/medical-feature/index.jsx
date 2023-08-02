@@ -9,8 +9,8 @@ const MedicalFeatureContainer = () => {
                 <div className="row">
                     <div className="col-lg-12">
                         <SectionTitle
-                            subTitle="Why Choose hope Medical"
-                            title="<span>The Best</span> For Your Health"
+                            subTitle="WHY CHOOSE "
+                            title="<span>BRIGHT WHITE </span> DENTAL CENTRE"
                         />
                     </div>
                 </div>
@@ -44,7 +44,7 @@ const MedicalFeatureContainer = () => {
                 data-aos-duration="1500"
             >
                 <img
-                    src={process.env.PUBLIC_URL + "./img/photos/doctor-01.png"}
+                    src={process.env.PUBLIC_URL + "./img/photos/bg-feature.jpg"}
                     alt="hope"
                 />
             </div>

@@ -48,31 +48,7 @@ const BrandContainer = () => {
             style={{
                 backgroundImage: `url(${process.env.PUBLIC_URL}/img/photos/testimonial-bg1.jpg)`,
             }}
-        >
-            <div className="container">
-                <div className="row">
-                    <div
-                        className="brand-logo-area brand-logo-default-area"
-                        data-aos="fade-up"
-                        data-aos-duration="1200"
-                    >
-                        <Swiper
-                            className="brand-logo-slider-container"
-                            {...swiperOption}
-                        >
-                            {HomeData[6].brand &&
-                                HomeData[6].brand.map((single, key) => {
-                                    return (
-                                        <SwiperSlide key={key}>
-                                            <Brand key={key} data={single} />
-                                        </SwiperSlide>
-                                    );
-                                })}
-                        </Swiper>
-                    </div>
-                </div>
-            </div>
-        </div>
+        ></div>
     );
 };
 

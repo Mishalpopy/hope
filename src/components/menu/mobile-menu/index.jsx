@@ -48,7 +48,8 @@ const MobileMenu = ({ show, onClose }) => {
                     <div className="header-top-offcanvas">
                         <p>
                             <i className="icofont-google-map"></i>{" "}
-                            <span>ADDRESS:</span> 568 Elizaberth Str, London, UK
+                            <span>ADDRESS:</span> Villa #G2U2, Al Wasl Road،
+                            Jumeirah 1 - Dubai
                         </p>
                     </div>
                 </div>
@@ -75,7 +76,7 @@ const MobileMenu = ({ show, onClose }) => {
                             </ul>
                         </li>
                         <li>
-                            <NavLink to={process.env.PUBLIC_URL + "/service"}>
+                            <NavLink to={process.env.PUBLIC_URL + "/"}>
                                 <span className="menu-text">Services</span>
                             </NavLink>
                             <span
@@ -85,27 +86,41 @@ const MobileMenu = ({ show, onClose }) => {
                             ></span>
                             <ul className="offcanvas-submenu">
                                 <li>
-                                    <NavLink
-                                        to={process.env.PUBLIC_URL + "/service"}
-                                    >
-                                        Service
+                                    <NavLink to={process.env.PUBLIC_URL + "/"}>
+                                        Essential Preventative Dentistry
                                     </NavLink>
                                 </li>
                                 <li>
-                                    <NavLink
-                                        to={
-                                            process.env.PUBLIC_URL +
-                                            "/service-detalis"
-                                        }
-                                    >
-                                        service details
+                                    <NavLink to={process.env.PUBLIC_URL + "/"}>
+                                        Dental Implants
+                                    </NavLink>
+                                </li>
+                                <li>
+                                    <NavLink to={process.env.PUBLIC_URL + "/"}>
+                                        Orthodontics
+                                    </NavLink>
+                                </li>
+                                <li>
+                                    <NavLink to={process.env.PUBLIC_URL + "/"}>
+                                        Treatment of Gum Disease
+                                    </NavLink>
+                                </li>
+
+                                <li>
+                                    <NavLink to={process.env.PUBLIC_URL + "/"}>
+                                        Root Canal Treatment
+                                    </NavLink>
+                                </li>
+                                <li>
+                                    <NavLink to={process.env.PUBLIC_URL + "/"}>
+                                        Complex Reconstructive Dentistry
                                     </NavLink>
                                 </li>
                             </ul>
                         </li>
 
                         <li>
-                            <NavLink to={process.env.PUBLIC_URL + "/blog"}>
+                            <NavLink to={process.env.PUBLIC_URL + "/"}>
                                 <span className="menu-text">blog</span>
                             </NavLink>
                             <span
@@ -115,9 +130,7 @@ const MobileMenu = ({ show, onClose }) => {
                             ></span>
                             <ul className="offcanvas-submenu">
                                 <li>
-                                    <NavLink
-                                        to={process.env.PUBLIC_URL + "/blog"}
-                                    >
+                                    <NavLink to={process.env.PUBLIC_URL + "/"}>
                                         Blog list
                                     </NavLink>
                                 </li>
@@ -135,13 +148,13 @@ const MobileMenu = ({ show, onClose }) => {
                         </li>
 
                         <li>
-                            <NavLink to={process.env.PUBLIC_URL + "/about"}>
+                            <NavLink to={process.env.PUBLIC_URL + "/"}>
                                 about
                             </NavLink>
                         </li>
 
                         <li>
-                            <NavLink to={process.env.PUBLIC_URL + "/contact"}>
+                            <NavLink to={process.env.PUBLIC_URL + "/"}>
                                 Contact Us
                             </NavLink>
                         </li>
@@ -209,7 +222,7 @@ const MobileMenu = ({ show, onClose }) => {
                                 className="media-heading"
                                 href="tel:+0962-58-58-258"
                             >
-                                +0962-58-58-258
+                                04 334 4484
                             </a>
                         </div>
                     </li>
@@ -224,7 +237,7 @@ const MobileMenu = ({ show, onClose }) => {
                                 className="media-heading"
                                 href="mailto:support@clenora.com.uk"
                             >
-                                support@clenora.com.uk
+                                booking@brightwhite.ae
                             </a>
                         </div>
                     </li>

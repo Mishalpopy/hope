@@ -13,116 +13,113 @@ const Footer = () => {
                             <div className="about-widget">
                                 <Logo
                                     classOption="footer-logo"
-                                    image={`${process.env.PUBLIC_URL}/img/logo-dark.png`}
+                                    image={`${process.env.PUBLIC_URL}/img/logo.png`}
                                 />
                                 <p className="mb-0">
-                                    Sed elit quam, iaculis sed semper sit amet
-                                    udin vitae nibh at magna akal semperFusce.
+                                    Our highly skilled and experienced dentists
+                                    are committed to delivering the best
+                                    possible care, ensuring your smile is in
+                                    safe hands.
                                 </p>
                                 <ul className="widget-contact-info">
                                     <li className="info-address">
                                         <i className="icofont-location-pin"></i>
-                                        69 Halsey St, New York, Ny 10002, United
-                                        States.
+                                        Villa #G2U2, Al Wasl Road، Jumeirah 1 -
+                                        Dubai
                                     </li>
                                     <li className="info-mail">
                                         <i className="icofont-email"></i>
                                         <a href="mailto://hello@yourdomain.com">
-                                            hello@yourdomain.com
+                                            booking@brightwhite.ae
                                         </a>
                                     </li>
                                     <li className="info-phone">
                                         <i className="icofont-ui-call"></i>
                                         <a href="tel://(0091)8547632521">
-                                            (0091) 8547 632521
+                                            04 334 4484
                                         </a>
                                     </li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <div className="col-sm-6 col-md-6 offset-md-1 col-lg-3 offset-lg-0 col-xl-3 d-lg-none d-xl-block">
-                        <div className="widget-item d-inline-block">
-                            <h4 className="widget-title line-bottom">
-                                Popular Tags
-                            </h4>
-                            <div className="widget-tags">
-                                <ul>
-                                    <li>
-                                        <Link to="/">Amazing</Link>
-                                    </li>
-                                    <li>
-                                        <Link to="/">Envato</Link>
-                                    </li>
-                                    <li>
-                                        <Link to="/">Themes</Link>
-                                    </li>
-                                    <li>
-                                        <Link to="/">Clean</Link>
-                                    </li>
-                                    <li>
-                                        <Link to="/">Wordpress</Link>
-                                    </li>
-                                    <li>
-                                        <Link to="/">Creative</Link>
-                                    </li>
-                                    <li>
-                                        <Link to="/">Mutilpurpose</Link>
-                                    </li>
-                                    <li>
-                                        <Link to="/">Retina Ready</Link>
-                                    </li>
-                                    <li>
-                                        <Link to="/">Twitter</Link>
-                                    </li>
-                                    <li>
-                                        <Link to="/">Responsive</Link>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+
                     <div className="col-sm-6 col-md-5 col-lg-4 col-xl-3">
                         <div className="widget-item">
                             <h4 className="widget-title line-bottom">
-                                Recent Posts
+                                Services
                             </h4>
                             <nav className="widget-posts">
                                 <ul className="posts-item">
                                     <li>
                                         <Link to="/">
                                             <i className="icon icofont-rounded-double-right"></i>
-                                            Lorem Ispum dolor sit amet putilor
+                                            Essential Preventative Dentistry
                                         </Link>
                                     </li>
                                     <li>
                                         <Link to="/">
                                             <i className="icon icofont-rounded-double-right"></i>
-                                            Medical is all about quality.
+                                            Dental Implants
                                         </Link>
                                     </li>
                                     <li>
                                         <Link to="/">
                                             <i className="icon icofont-rounded-double-right"></i>
-                                            Is your website user friendly ?
+                                            Orthodontics
                                         </Link>
                                     </li>
                                     <li>
                                         <Link to="/">
                                             <i className="icon icofont-rounded-double-right"></i>
-                                            Ai offer weekly updates &amp; more.
+                                            Treatment of Gum Disease
                                         </Link>
                                     </li>
                                     <li>
                                         <Link to="/">
                                             <i className="icon icofont-rounded-double-right"></i>
-                                            Customer should love your web.
+                                            Root Canal Treatment
                                         </Link>
                                     </li>
                                     <li>
                                         <Link to="/">
                                             <i className="icon icofont-rounded-double-right"></i>
-                                            Your site smooth and stunning.
+                                            Complex Reconstructive Dentistry
+                                        </Link>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div className="col-sm-6 col-md-5 col-lg-4 col-xl-3">
+                        <div className="widget-item">
+                            <h4 className="widget-title line-bottom">
+                                Quick Links
+                            </h4>
+                            <nav className="widget-posts">
+                                <ul className="posts-item">
+                                    <li>
+                                        <Link to="/">
+                                            <i className="icon icofont-rounded-double-right"></i>
+                                            About
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/">
+                                            <i className="icon icofont-rounded-double-right"></i>
+                                            Gallery
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/">
+                                            <i className="icon icofont-rounded-double-right"></i>
+                                            Team
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/">
+                                            <i className="icon icofont-rounded-double-right"></i>
+                                            Contact
                                         </Link>
                                     </li>
                                 </ul>
@@ -178,15 +175,17 @@ const Footer = () => {
                             <div className="widget-copyright">
                                 <p>
                                     &copy; 2021{" "}
-                                    <span className="text-uppercase">hope</span>
+                                    <span className="text-uppercase">
+                                        BRIGHT WHITE DENTAL CENTRE
+                                    </span>
                                     . Made with{" "}
                                     <i className="icofont-heart-alt"></i> by{" "}
                                     <a
                                         target="_blank"
-                                        href="https://www.hasthemes.com"
+                                        href="/"
                                         rel="noreferrer"
                                     >
-                                        HasThemes
+                                        11:11
                                     </a>
                                 </p>
                             </div>

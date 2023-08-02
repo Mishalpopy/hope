@@ -6,28 +6,22 @@ const ContactAddress = () => {
         <div className="contact-info-content">
             <div className="info-address">
                 <h2 className="title">
-                    Brooklyn, <span>New York</span>
+                    Dubai, <span>UAE</span>
                 </h2>
                 <p>
-                    849 Diamond Str, 07th Floor, NY 10012, New York, United
-                    State America
+                    Villa #G2U2, Al Wasl Road، Jumeirah 1 - Dubai United Arab
+                    Emirates
                 </p>
                 <Link to="/">
-                    <span>Email:</span> infor@hope.com
+                    <span>Email:</span> booking@brightwhite.ae
                 </Link>
             </div>
             <div className="brand-office">
                 <div className="info-tem style-two">
                     <h6>Call directly:</h6>
-                    <p>+1 212-226-3126</p>
+                    <p>04 334 4484</p>
                 </div>
-                <div className="info-tem">
-                    <h6>Brand Offices:</h6>
-                    <p>
-                        Allentown PA | Allanta, GA | Chicago, IL | Dallas, TX,
-                        Edison, NJ | Houston, TX
-                    </p>
-                </div>
+
                 <div className="info-tem mb-0">
                     <h6>Work Hours:</h6>
                     <p>Mon - Sat: 8.00 - 17.00, Sunday closed</p>

@@ -36,40 +36,22 @@ const Header = () => {
                             <div className="col">
                                 <p>
                                     <i className="icofont-google-map"></i>{" "}
-                                    <span>ADDRESS:</span> 568 Elizaberth Str,
-                                    London, UK
+                                    <span>ADDRESS:</span> Villa #G2U2, Al Wasl
+                                    Road، Jumeirah 1 - Dubai
                                 </p>
                             </div>
                             <div className="col">
                                 <ul className="social-links text-end">
                                     <li>
                                         <SocialIcon
-                                            path="https://twitter.com/"
-                                            icon="icofont-twitter"
-                                        />
-                                    </li>
-                                    <li>
-                                        <SocialIcon
-                                            path="https://www.facebook.com/"
+                                            path="https://www.facebook.com/brightwhiteae/"
                                             icon="icofont-facebook"
                                         />
                                     </li>
                                     <li>
                                         <SocialIcon
-                                            path="https://www.instagram.com/"
+                                            path="https://www.instagram.com/brightwhiteae/?hl=en"
                                             icon="icofont-instagram"
-                                        />
-                                    </li>
-                                    <li>
-                                        <SocialIcon
-                                            path="https://rss.com/"
-                                            icon="icofont-rss-feed"
-                                        />
-                                    </li>
-                                    <li>
-                                        <SocialIcon
-                                            path="https://www.youtube.com/"
-                                            icon="icofont-play-alt-1"
                                         />
                                     </li>
                                 </ul>

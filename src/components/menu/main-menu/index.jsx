@@ -13,7 +13,7 @@ const MainMenu = () => {
                 <li>
                     <NavLink
                         className="main-menu-link"
-                        to={process.env.PUBLIC_URL + "/service"}
+                        to={process.env.PUBLIC_URL + "/"}
                     >
                         Services
                     </NavLink>
@@ -21,9 +21,17 @@ const MainMenu = () => {
                         <li>
                             <NavLink
                                 className="sub-menu-link"
+                                to={process.env.PUBLIC_URL + "/"}
+                            >
+                                Essential Preventative Dentistry
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink
+                                className="sub-menu-link"
                                 to={process.env.PUBLIC_URL + "/service"}
                             >
-                                Services
+                                Dental Implants
                             </NavLink>
                         </li>
                         <li>
@@ -34,34 +42,39 @@ const MainMenu = () => {
                                     "/service-details/1"
                                 }
                             >
-                                Service Details
-                            </NavLink>
-                        </li>
-                    </ul>
-                </li>
-
-                <li>
-                    <NavLink
-                        className="main-menu-link"
-                        to={process.env.PUBLIC_URL + "/blog"}
-                    >
-                        Blog
-                    </NavLink>
-                    <ul className="sub-menu">
-                        <li>
-                            <NavLink
-                                className="sub-menu-link"
-                                to={process.env.PUBLIC_URL + "/blog"}
-                            >
-                                Blog list
+                                Orthodontics
                             </NavLink>
                         </li>
                         <li>
                             <NavLink
                                 className="sub-menu-link"
-                                to={process.env.PUBLIC_URL + "/blog-details/1"}
+                                to={process.env.PUBLIC_URL + "/"}
                             >
-                                Blog Details
+                                Oral Surgery
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink
+                                className="sub-menu-link"
+                                to={process.env.PUBLIC_URL + "/"}
+                            >
+                                Treatment of Gum Disease
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink
+                                className="sub-menu-link"
+                                to={process.env.PUBLIC_URL + "/"}
+                            >
+                                Root Canal Treatment
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink
+                                className="sub-menu-link"
+                                to={process.env.PUBLIC_URL + "/"}
+                            >
+                                Complex Reconstructive Dentistry
                             </NavLink>
                         </li>
                     </ul>
@@ -78,7 +91,23 @@ const MainMenu = () => {
                 <li>
                     <NavLink
                         className="main-menu-link"
-                        to={process.env.PUBLIC_URL + "/contact"}
+                        to={process.env.PUBLIC_URL + "/"}
+                    >
+                        Gallery
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink
+                        className="main-menu-link"
+                        to={process.env.PUBLIC_URL + "/"}
+                    >
+                        Team
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink
+                        className="main-menu-link"
+                        to={process.env.PUBLIC_URL + "/"}
                     >
                         Contact
                     </NavLink>

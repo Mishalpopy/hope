@@ -11,7 +11,7 @@ const AboutPage = () => {
     return (
         <React.Fragment>
             <Layout>
-                <SEO title="Hope – About" />
+                <SEO title="BRIGHT WHITE DENTAL CENTRE – About" />
                 <div className="wrapper">
                     <Header />
                     <div className="main-content site-wrapper-reveal">

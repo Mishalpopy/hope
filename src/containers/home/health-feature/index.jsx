@@ -11,7 +11,7 @@ const HealthFeatureContainer = () => {
                             return (
                                 <div
                                     key={key}
-                                    className="col-lg-4 col-sm-6 mb-4"
+                                    className="col-lg-6 col-sm-6 mb-4"
                                 >
                                     <HealthFeature data={single} key={key} />
                                 </div>
